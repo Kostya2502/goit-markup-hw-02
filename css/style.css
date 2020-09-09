@@ -1,0 +1,69 @@
+/* цвет основного текста #757575
+вторичный цвет #212121
+белый #FFFFFF
+основной цвет фона #E5E5E5
+вторичный цвет фона #F5F4FA
+акцент синий #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+.logo > span {
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.info .link {
+  color: var(--title-text-color);
+}
+.info .link:hover,
+.info .link:focus {
+  color: var(--accent-color);
+}
+/* hero не видно на белом фоне */
+.hero-title {
+  color: var(--secondary-text-color);
+}
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+/* ссылки футера не видно на белом фоне */
+.footer .item {
+  color: var(--secondary-text-color);
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
