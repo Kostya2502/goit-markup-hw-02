@@ -26,6 +26,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo > span {
   color: var(--title-text-color);
@@ -40,6 +41,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -55,6 +57,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .info .link:hover,
 .info .link:focus {
@@ -70,10 +73,13 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+/* button */
 .button {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
+
 .feature-list .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -100,19 +106,59 @@ body {
   line-height: 1.67;
   text-align: center;
 }
-
-.section .team .item {
+.list .item {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+.list .desk {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12.44;
+  text-align: center;
+}
+
+/* projects */
+.btn {
+  color: var(--title-text-color);
+  background: var(--secondary-bg-color);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
+}
+
+.projects .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects .link {
+  text-decoration: none;
+}
+.projects p {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
 
 /* ссылки футера не видно на белом фоне */
-.footer .item {
+.footer .address {
   color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
