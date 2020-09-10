@@ -17,9 +17,15 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo > span {
   color: var(--title-text-color);
@@ -30,6 +36,10 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -41,6 +51,10 @@ body {
 
 .info .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .info .link:hover,
 .info .link:focus {
@@ -49,6 +63,12 @@ body {
 /* hero не видно на белом фоне */
 .hero-title {
   color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   color: var(--secondary-text-color);
@@ -56,10 +76,39 @@ body {
 }
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
-.section .section-title {
+.feature-list p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.work {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
+.team {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.section .team .item {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
 /* ссылки футера не видно на белом фоне */
 .footer .item {
   color: var(--secondary-text-color);
